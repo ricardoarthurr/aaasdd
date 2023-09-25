@@ -1,0 +1,21 @@
+{
+	"events": [
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://depositphotos_421921320-track-positive-notification-for-indie-game.mp3",
+			"volume": 0
+		},
+		{
+			"change_timeline": "timeline-1694357623.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1695405008.json",
+		"name": "notificacao"
+	}
+}

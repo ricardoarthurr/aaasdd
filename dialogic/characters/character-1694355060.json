@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1694355060.json",
+	"mirror_portraits": false,
+	"name": "amanda",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -100,
+	"offset_y": -25,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://game_characters/Perfil/amanda perfil.png"
+		}
+	],
+	"scale": 200,
+	"theme": ""
+}

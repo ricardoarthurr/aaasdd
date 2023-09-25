@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Amanda.tscn" type="PackedScene" id=1]
+[ext_resource path="res://game_itemmap/escola.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 17.1648, 11.7567 )
+
+[node name="level01_rua" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2( 463, 57 )
+collision_layer = 2
+
+[node name="Escola" type="Sprite" parent="StaticBody2D"]
+position = Vector2( 12, 45 )
+scale = Vector2( 4.07813, 4.07813 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 3, -9.05469 )
+scale = Vector2( 4.07813, 4.07813 )
+shape = SubResource( 1 )
+
+[node name="amanda" parent="." instance=ExtResource( 1 )]
+position = Vector2( 455, 150 )
+scale = Vector2( 2, 2 )

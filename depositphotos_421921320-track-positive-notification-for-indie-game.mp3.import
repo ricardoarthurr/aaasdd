@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/depositphotos_421921320-track-positive-notification-for-indie-game.mp3-462f7df18a50d27472d025eb5dc0ebfb.mp3str"
+
+[deps]
+
+source_file="res://depositphotos_421921320-track-positive-notification-for-indie-game.mp3"
+dest_files=[ "res://.import/depositphotos_421921320-track-positive-notification-for-indie-game.mp3-462f7df18a50d27472d025eb5dc0ebfb.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
